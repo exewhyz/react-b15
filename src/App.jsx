@@ -1,6 +1,13 @@
+import Form from "./components/form"
+import Posts from "./components/posts";
+
 function App() {
   return (
-    <h1>Hello from App</h1>
+    <>
+      <h1>App Component</h1>
+      <Form />
+      <Posts />
+    </>
   )
 }
 
